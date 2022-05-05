@@ -24,7 +24,7 @@ def get_db():
 
 @app.get("/")
 async def root():
-    return {"message": "ハラショー"}
+    return {"message": "パカー"}
 
 
 @app.post("/users/", response_model=schemas.User)
